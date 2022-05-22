@@ -47,7 +47,7 @@ android {
         applicationId "com.wnatechlabs.townsquare.townsquare"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion flutter.minSdkVersion // 21 <- flutter_launcher_icons statically check for minSdkVersion, so we added it here as a comment so it can detected. Be careful for features only available for Android 8.0 devices and above. More info: https://pub.dev/packages/flutter_launcher_icons
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
