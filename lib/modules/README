@@ -1,0 +1,4 @@
+Modules are generic and containerized pieces of code that can be reused across different apps,
+they don't dependent in any way on the app.
+
+These might be moved to another repository and/or publish to pub.dev
