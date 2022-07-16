@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   # Fonts / Assets
-  google_fonts: ^3.0.0
+  google_fonts: ^3.0.1
   flutter_svg: ^1.0.3
   font_awesome_flutter: ^10.1.0
   # Widgets
@@ -25,6 +25,7 @@ dependencies:
   built_collection: ^5.1.1
   rxdart: ^0.27.3
   # General / Misc
+  provider: ^6.0.3
   retry: ^3.1.0
   path: ^1.8.1
   path_provider: ^2.0.10
