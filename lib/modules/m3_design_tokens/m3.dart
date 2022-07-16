@@ -12,12 +12,7 @@ class M3 {
     required this.sys,
   });
 
-  static M3 of(BuildContext context) {
-    final m3 = Provider.of<M3?>(context, listen: true);
-    if (m3 != null) {
-      return m3;
-    }
-
+  factory M3.defaultTheme(BuildContext context) {
     final ref = M3RefTokens(
       palette: M3RefPaletteTokens.fromDefaultTonalPalettes(),
       typeface: M3RefTypefaceTokens(),
@@ -35,5 +30,13 @@ class M3 {
         ),
       ),
     );
+  }
+
+  static M3 of(BuildContext context) {
+    final m3 = Provider.of<M3?>(context, listen: true);
+    if (m3 != null) {
+      return m3;
+    }
+    return M3.defaultTheme(context);
   }
 }
