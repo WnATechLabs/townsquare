@@ -11,7 +11,7 @@ class M3SysTypescale {
 
   TextStyle get displayLarge => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 64,
+        height: 64 / 57, // 64
         fontSize: 57,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -19,7 +19,7 @@ class M3SysTypescale {
 
   TextStyle get displayMedium => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 52,
+        height: 52 / 45, // 52
         fontSize: 45,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -27,7 +27,7 @@ class M3SysTypescale {
 
   TextStyle get displaySmall => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 44,
+        height: 44 / 36, // 44
         fontSize: 36,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -35,7 +35,7 @@ class M3SysTypescale {
 
   TextStyle get headlineLarge => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 40,
+        height: 40 / 32, // 40
         fontSize: 32,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -43,7 +43,7 @@ class M3SysTypescale {
 
   TextStyle get headlineMedium => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 36,
+        height: 36 / 28, // 36
         fontSize: 28,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -51,7 +51,7 @@ class M3SysTypescale {
 
   TextStyle get headlineSmall => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 32,
+        height: 32 / 24, // 32
         fontSize: 24,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -59,7 +59,7 @@ class M3SysTypescale {
 
   TextStyle get titleLarge => TextStyle(
         fontFamily: ref.typeface.brand,
-        height: 28,
+        height: 28 / 22, // 28
         fontSize: 22,
         letterSpacing: 0,
         fontWeight: ref.typeface.weightRegular,
@@ -67,7 +67,7 @@ class M3SysTypescale {
 
   TextStyle get titleMedium => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 24,
+        height: 24 / 16, // 24
         fontSize: 16,
         letterSpacing: 0.15,
         fontWeight: ref.typeface.weightMedium,
@@ -75,7 +75,7 @@ class M3SysTypescale {
 
   TextStyle get titleSmall => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 20,
+        height: 20 / 14, // 20
         fontSize: 14,
         letterSpacing: 0.1,
         fontWeight: ref.typeface.weightMedium,
@@ -83,7 +83,7 @@ class M3SysTypescale {
 
   TextStyle get labelLarge => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 20,
+        height: 20 / 14, // 20
         fontSize: 14,
         letterSpacing: 0.1,
         fontWeight: ref.typeface.weightMedium,
@@ -91,7 +91,7 @@ class M3SysTypescale {
 
   TextStyle get labelMedium => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 16,
+        height: 16 / 12, // 16
         fontSize: 12,
         letterSpacing: 0.5,
         fontWeight: ref.typeface.weightMedium,
@@ -99,7 +99,7 @@ class M3SysTypescale {
 
   TextStyle get labelSmall => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 16,
+        height: 16 / 11, // 16
         fontSize: 11,
         letterSpacing: 0.5,
         fontWeight: ref.typeface.weightMedium,
@@ -107,7 +107,7 @@ class M3SysTypescale {
 
   TextStyle get bodyLarge => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 24,
+        height: 24 / 16, // 24
         fontSize: 16,
         letterSpacing: 0.5,
         fontWeight: ref.typeface.weightRegular,
@@ -115,7 +115,7 @@ class M3SysTypescale {
 
   TextStyle get bodyMedium => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 20,
+        height: 20 / 14, // 20
         fontSize: 14,
         letterSpacing: 0.25,
         fontWeight: ref.typeface.weightRegular,
@@ -123,7 +123,7 @@ class M3SysTypescale {
 
   TextStyle get bodySmall => TextStyle(
         fontFamily: ref.typeface.plain,
-        height: 16,
+        height: 16 / 12, // 16
         fontSize: 12,
         letterSpacing: 0.4,
         fontWeight: ref.typeface.weightRegular,
