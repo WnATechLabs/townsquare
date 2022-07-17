@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:townsquare/UI/components/widgets/index.dart';
+// import 'package:townsquare/UI/components/widgets/index.dart';
+import 'package:townsquare/modules/m3_design_tokens/index.dart';
 
 import 'view_model.dart';
 
@@ -27,6 +28,29 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return const UnderDevelopmentWidget(title: 'HomePage');
+    final t = M3.of(context);
+
+    return Scaffold(
+      primary: true,
+      backgroundColor: t.sys.color.background,
+      body: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () => _vm.navToAuthPage(context),
+              child: Text(
+                'auth',
+                style: t.sys.typescale.labelMedium.copyWith(
+                  color: t.sys.color.onBackground,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
