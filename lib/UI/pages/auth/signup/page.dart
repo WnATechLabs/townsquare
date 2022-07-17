@@ -27,6 +27,6 @@ class _SignupPageState extends State<SignupPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const UnderDevelopmentWidget();
+    return const UnderDevelopmentWidget(title: 'SignupPage');
   }
 }

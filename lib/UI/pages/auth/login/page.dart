@@ -27,6 +27,6 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const UnderDevelopmentWidget();
+    return const UnderDevelopmentWidget(title: 'LoginPage');
   }
 }

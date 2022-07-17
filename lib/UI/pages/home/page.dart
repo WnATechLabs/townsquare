@@ -27,6 +27,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return const UnderDevelopmentWidget();
+    return const UnderDevelopmentWidget(title: 'HomePage');
   }
 }
